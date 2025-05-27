@@ -12,10 +12,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Google Cloud credentials - NEVER COMMIT THESE!
-*.json
-*-credentials.json
+# Safe and specific:
 dialogflow-credentials.json
+*-credentials.json
 service-account*.json
 google-credentials.json
 gcloud-key.json
